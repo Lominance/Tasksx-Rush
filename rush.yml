@@ -1,0 +1,26 @@
+name: BackgroundTasks           # Caution: DO NOT change the name.
+description: An extension to run tasks in the Background. An extension developed by Kumaraswamy B.G
+homepage: https://community.appinventor.mit.edu/t/background-tasks-extension-1-2-a1/29160?u=kumaraswamy_b.g
+# For a detailed info on this file and supported fields, check
+# out this link: https://github.com/ShreyashSaitwal/rush-cli/wiki/Metadata-File
+
+
+version:
+  number: 2        # Auto increments version number when built with '-r' (or '--release') flag.
+  name: 2.0 A
+
+assets:
+  icon: icon.png      # Extension icon
+  # other:              # Extension asset(s)
+  #   - my_awesome_asset.anything
+
+authors:
+  - Kumaraswamy BG
+
+# Uncomment the below field if you wish to apply ProGuard while building a release
+# build ('-r') of your extension:
+# release:
+#   optimize: true
+
+deps:
+  - beanshell.jar
